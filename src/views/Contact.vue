@@ -9,23 +9,18 @@ const platforms = [
   {
     name: "LinkedIn",
     icon: siLinkedin.svg,
-    url: "https://www.linkedin.com/in/sharma01ketan/",
+    url: "https://www.linkedin.com/in/japsimar-soin/",
   },
   {
     name: "GitHub",
     icon: siGithub.svg,
-    url: "https://github.com/sharma01ketan",
+    url: "https://github.com/japsimar-soin",
   },
   {
     name: "Email",
     icon: siGmail.svg,
-    url: "mailto:sharma01ketan@gmail.com",
-  },
-  {
-    name: "Phone",
-    icon: siGooglemessages.svg,
-    url: "tel:6006653315",
-  },
+    url: "mailto:japsimarsoin2003@gmail.com",
+  }
 ];
 export default {
   title: "Contact",

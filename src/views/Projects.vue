@@ -3,35 +3,24 @@ import NavBar from "../components/NavBar.vue";
 let images = [];
 const projects = [
   {
-    name: "Ask Me Kuch Bhi",
-    image: "/assets/projects/ask-me-kuch-bhi.png",
-    subtitle: "Anonymous Q&A platform",
-    url: "https://ai-feedback-saas-3u22.vercel.app/u/kapilSharma",
+    name: "Jeera",
+    image: "/assets/projects/jeera.png",
+    subtitle: "Project Management Platform",
+    url: "https://jira-management-tool.vercel.app",
   },
   {
-    name: "Social Media Platform",
-    image: "/assets/projects/social-media.png",
-    subtitle: "Social Media Platform like Twitter",
+    name: "ThreadX",
+    image: "/assets/projects/threads.png",
+    subtitle: "Social Media Platform like Threads",
     url: "https://threads-zyc9.onrender.com/",
   },
-  // {
-  //   name: "Let's Blog",
-  //   image: "/assets/projects/lets-blog.png",
-  //   subtitle: "Appwrite Powered Blogging Platform",
-  //   url: "https://appwriteblog-nu.vercel.app/",
-  // },
   {
-    name: "Image Gallery",
-    image: "/assets/projects/image-gallery.png",
-    subtitle: "Next.js Image Gallery",
-    url: "https://t3gallery-six-gray.vercel.app/",
+    name: "Gallery",
+    image: "/assets/projects/gallery.png",
+    subtitle: "Image Gallery",
+    url: "https://gallery-phi-hazel.vercel.app/",
   },
-  {
-    name: "Shail",
-    image: "/assets/projects/shail.png",
-    subtitle: "Shail: A Shell in C",
-    url: "https://github.com/sharma01ketan/Shail",
-  },
+  
 ];
 export default {
   title: "Projects",

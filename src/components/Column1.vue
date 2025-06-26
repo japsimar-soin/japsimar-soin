@@ -1,22 +1,15 @@
 <script>
-import siLinkedin from "simple-icons/icons/linkedin";
-import siGithub from "simple-icons/icons/github";
-import siDribbble from "simple-icons/icons/dribbble";
-import siStackoverflow from "simple-icons/icons/stackoverflow";
-import siYoutube from "simple-icons/icons/youtube";
-import siTwitter from "simple-icons/icons/twitter";
+import simpleIcons from "simple-icons";
 export default {
   title: "Column1",
   emits: ["hoverIn", "hoverOut"],
   data() {
     return {
       i: {
-        linkedin: siLinkedin.svg,
-        github: siGithub.svg,
-        dribbble: siDribbble.svg,
-        stackoverflow: siStackoverflow.svg,
-        youtube: siYoutube.svg,
-        twitter: siTwitter.svg,
+        linkedin: simpleIcons.Get("linkedin").svg,
+        github: simpleIcons.Get("github").svg,
+        leetcode: simpleIcons.Get("leetcode").svg,
+        mail: simpleIcons.Get("maildotru").svg,
       },
     };
   },
@@ -26,7 +19,7 @@ export default {
 <template>
   <div class="column">
     <div class="center">
-      <h1>Hi, I'm sharma01ketan</h1><br/>
+      <h1>Hi, I'm Japsimar Soin</h1><br/>
       <p>
         I am a Software Engineer at 
         <a
@@ -74,7 +67,7 @@ export default {
         >
         or 
         <a
-          href="https://www.linkedin.com/in/sharma01ketan/"
+          href="https://www.linkedin.com/in/japsimar-soin/"
           @mouseenter="$emit('hoverIn')"
           @mouseleave="$emit('hoverOut')"
           class="special-link"
@@ -84,19 +77,25 @@ export default {
       <div class="socials">
         <a
           v-html="i.linkedin"
-          href="https://www.linkedin.com/in/sharma01ketan/"
+          href="https://www.linkedin.com/in/japsimar-soin/"
           @mouseenter="$emit('hoverIn')"
           @mouseleave="$emit('hoverOut')"
         ></a>
         <a
           v-html="i.github"
-          href="https://github.com/sharma01ketan"
+          href="https://github.com/japsimar-soin"
           @mouseenter="$emit('hoverIn')"
           @mouseleave="$emit('hoverOut')"
         ></a>
         <a
-          v-html="i.twitter"
-          href="https://x.com/sharma01ketan"
+          v-html="i.leetcode"
+          href="https://leetcode.com/u/japsimar_soin/"
+          @mouseenter="$emit('hoverIn')"
+          @mouseleave="$emit('hoverOut')"
+        ></a>
+        <a
+          v-html="i.mail"
+          href="mailto:japsimarsoin2003@gmail.com"
           @mouseenter="$emit('hoverIn')"
           @mouseleave="$emit('hoverOut')"
         ></a>

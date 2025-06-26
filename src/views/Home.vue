@@ -21,7 +21,7 @@ export default {
 <style>
 .primary-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
   min-height: 100vh;
   width: 100%;
 }
