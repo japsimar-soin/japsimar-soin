@@ -22,7 +22,7 @@ export default {
 			<h1>Hi, I'm Japsimar Soin</h1>
 			<br />
 			<p>
-				Hi, I’m a Software Engineer with a strong focus on backend development,
+				I’m a Software Engineer with a strong focus on backend development,
 				Java, and system design. I’ve built and integrated APIs, worked with
 				databases, and contributed to scalable, real-world applications. I enjoy
 				solving DSA problems, exploring backend architectures, and building side

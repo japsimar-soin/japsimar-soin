@@ -4,9 +4,15 @@ let images = [];
 const projects = [
   {
     name: "Jeera",
-    image: "/assets/projects/jeera.png",
+    image: "/assets/projects/Jeera.png",
     subtitle: "Project Management Platform",
-    url: "https://jira-management-tool.vercel.app",
+    url: "https://jeera-project-management.vercel.app/",
+  },
+  {
+    name: "Ask Me Anything",
+    image: "/assets/projects/AskMeAnything.png",
+    subtitle: "AI with a personality",
+    url: "https://ask-me-anything-snowy.vercel.app/dashboard",
   },
   {
     name: "ThreadX",
