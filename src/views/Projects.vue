@@ -4,13 +4,13 @@ let images = [];
 const projects = [
   {
     name: "Jeera",
-    image: "/assets/projects/Jeera.png",
+    image: "/assets/projects/jeera.png",
     subtitle: "Project Management Platform",
     url: "https://jeera-project-management.vercel.app/",
   },
   {
     name: "Ask Me Anything",
-    image: "/assets/projects/AskMeAnything.png",
+    image: "/assets/projects/ask-me-anything.png",
     subtitle: "AI with a personality",
     url: "https://ask-me-anything-snowy.vercel.app/dashboard",
   },
