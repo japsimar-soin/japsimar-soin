@@ -48,7 +48,7 @@ export default {
     </svg>
     <div class="image-container">
       <img src="/s01k.svg" class="rotating-image" />
-      <img src="/me.jpg" class="avatar" style="transform: scale(1.5);" />
+      <!-- <img src="/me.jpg" class="avatar" style="transform: scale(1.5);" /> -->
     </div>
   </div>
 </template>
@@ -112,7 +112,7 @@ export default {
   animation: rotate-intro 2s 1 ease-out, rotate 90s 2s infinite linear;
   transform-origin: center center;
   will-change: transform;
-  z-index: 1;
+  z-index: 10;
 }
 
 .avatar {
@@ -126,9 +126,9 @@ export default {
   z-index: 2;
 }
 
-.image-container:hover .avatar {
+/* .image-container:hover .avatar {
   opacity: 1;
-}
+} */
 
 .image-container:hover .rotating-image {
   animation-play-state: paused;
