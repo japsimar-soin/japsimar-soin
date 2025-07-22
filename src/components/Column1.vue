@@ -1,15 +1,19 @@
 <script>
-import simpleIcons from "simple-icons";
+
+import siLinkedin from "simple-icons/icons/linkedin";
+import siGithub from "simple-icons/icons/github";
+import siGmail from "simple-icons/icons/gmail";
+import siLeetcode from "simple-icons/icons/leetcode";
 export default {
 	title: "Column1",
 	emits: ["hoverIn", "hoverOut"],
 	data() {
 		return {
 			i: {
-				linkedin: simpleIcons.Get("linkedin").svg,
-				github: simpleIcons.Get("github").svg,
-				leetcode: simpleIcons.Get("leetcode").svg,
-				mail: simpleIcons.Get("maildotru").svg,
+				linkedin: siLinkedin.svg,
+				github: siGithub.svg,
+				leetcode: siLeetcode.svg,
+				mail: siGmail.svg,
 			},
 		};
 	},
